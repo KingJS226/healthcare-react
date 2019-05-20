@@ -1,0 +1,16 @@
+img {
+    height: 30px;
+}
+
+.flyout .ml-auto, .mx-auto {
+     margin-left: 5px!important;
+}
+
+.classic-form-page .ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+.logout-item {
+    cursor: pointer!important;
+    color: white;
+}

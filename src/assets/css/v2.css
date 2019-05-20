@@ -1,0 +1,23 @@
+#profile-v2 .card.card-cascade .view.view-cascade {
+  padding: 1.6rem 1rem;
+  text-align: center;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  text-align: left;
+  padding: .75rem 1.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 0px!important;
+}
+.select-doctor input{
+  margin-top: 58px!important;
+}
+.select-doctor .select-wrapper + label{
+  top: 35px!important;
+}
+.select-wrapper span.caret{
+  top: 0.8rem!important;
+}

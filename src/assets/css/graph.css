@@ -1,0 +1,48 @@
+.check-box {
+    width: 8%!important;
+    margin-top: -5px!important;
+}
+
+.label1 .form-check-label{
+    color: red!important;
+    margin-left: 10px!important;
+}
+
+.label2 .form-check-label{
+    color: greenyellow!important;
+    margin-left: 10px!important;
+}
+
+.label3 .form-check-label{
+    color: #00c851!important;
+    margin-left: 10px!important;
+}
+
+.mr-5, .mx-5 {
+     margin-right: 0px!important;
+}
+
+.form-check  {
+    width: 100%!important;
+}
+
+form .form-check  {
+    width: auto!important;
+     padding-left: 0rem!important;
+}
+
+.my3 {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+}
+.form-check  {
+    padding-left: 0px!important;
+}
+.left-button {
+    float: left!important;
+    padding: 0.5rem 2.5rem;
+}
+
+canvas {
+    border: 1px solid #aaa;
+}

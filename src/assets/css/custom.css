@@ -1,0 +1,55 @@
+.side-nav .logo-wrapper a {
+    height: auto!important;
+}
+.side-nav .logo-wrapper {
+    height: auto!important;
+}
+.font-weight-bold {
+    text-align: left!important;
+}
+.right-button {
+    float: right!important;
+}
+span.caret{
+    top: 1.8rem!important;
+}
+.select-wrapper input.select-dropdown {
+    color: #00c851!important;
+}
+label {
+    display: inline-block;
+     margin-bottom: 0!important;
+    font-size: 20px!important;
+    color: burlywood!important;
+}
+
+span.caret{
+    top: 1.8rem!important;
+}
+.select-wrapper input.select-dropdown {
+    color: #00c851!important;
+}
+
+#profile-v2 .card.card-cascade .view.view-cascade {
+    padding: 1.6rem 1rem;
+    text-align: center;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    text-align: left;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 0px!important;
+}
+.select-doctor input{
+    margin-top: 58px!important;
+}
+.select-doctor .select-wrapper + label{
+    top: 35px!important;
+}
+.select-wrapper span.caret{
+    top: 0.8rem!important;
+}

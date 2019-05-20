@@ -1,0 +1,53 @@
+
+.font-weight-bold {
+    text-align: left!important;
+}
+.right-button {
+    float: right!important;
+}
+
+.select-wrapper input.select-dropdown {
+    color: #00c851!important;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0!important;
+    font-size: 20px!important;
+    color: burlywood!important;
+    float: left!important;
+}
+
+
+.select-wrapper input.select-dropdown {
+    color: #00c851!important;
+}
+
+
+.select-doctor input{
+    margin-top: -38px!important;
+
+}
+
+.select-doctor{
+    padding-top: 5rem!important;
+}
+
+.select-label {
+    margin-top: 35px!important;
+}
+span.caret{
+    display: none!important;
+}
+.mt-5, .my-5 {
+    margin-top: 0px!important;
+}
+
+.md-form {
+     margin-top: 0rem!important;
+     margin-bottom: 0rem!important;
+}
+
+.label-class {
+    padding-left: 18px!important;
+}

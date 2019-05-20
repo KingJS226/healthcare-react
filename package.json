@@ -1,0 +1,52 @@
+{
+  "name": "anamnesis",
+  "version": "0.1.0",
+  "private": true,
+  "// If You want to install mdbreact from our GitLab repository, please replace '4.11.1' with gitURL provided here ->": "git+https://oauth2:<YOUR-TOKEN-GOES-HERE>@git.mdbootstrap.com/mdb/react/re-pro.git",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0",
+    "electron": "^5.0.1",
+    "emotion": "^10.0.9",
+    "i18next": "^15.0.9",
+    "i18next-browser-languagedetector": "^3.0.1",
+    "i18next-xhr-backend": "^2.0.1",
+    "lodash": "^4.17.5",
+    "mdbreact": "./mdbreact",
+    "outy": "^0.1.2",
+    "prop-types": "^15.7.2",
+    "querystring-es3": "^0.2.1",
+    "react": "^16.7.0",
+    "react-autosuggest": "^9.4.3",
+    "react-dom": "^16.7.0",
+    "react-emotion": "^10.0.0",
+    "react-i18next": "^10.6.2",
+    "react-multi-bar-slider": "^1.2.1",
+    "react-router": "^4.3.1",
+    "react-scripts": "2.0.5",
+    "wait-on": "^3.2.0"
+  },
+  "scripts": {
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron-build": "electron-builder",
+    "release": "yarn react-build && electron-builder --publish=always",
+    "build": "yarn react-build && yarn electron-build",
+    "electron-start": "electron ./ --allow-file-access-from-files",
+    "start": "concurrently \"cross-env BROWSER=none yarn react-start\" \"wait-on http://localhost:3000 && electron .\""
+  },
+  "devDependencies": {},
+  "homepage": "./",
+  "main": "public/electron.js",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
