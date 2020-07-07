@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "concurrently": "^4.1.0",
-    "electron": "^5.0.1",
+    "electron": "^9.1.0",
     "emotion": "^10.0.9",
     "i18next": "^15.0.9",
     "i18next-browser-languagedetector": "^3.0.1",
